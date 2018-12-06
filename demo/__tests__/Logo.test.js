@@ -1,12 +1,11 @@
 import React from 'react'
-import LogoPage from './pages/logo.page'
-import Logo from '../Logo'
+import { ShallowLogoSection } from './pages/logo.section'
 
 describe('rendering the logo', () => {
-  it('renders the image /my/logo.png', () => {
-    const page = new LogoPage(<Logo />)
+  it('renders with the src /my/logo.png', () => {
+    const page = new ShallowLogoSection()
 
-    const result = page.image
+    const result = page.src
 
     expect(result).toBe('/my/logo.png')
   })
