@@ -1581,6 +1581,11 @@ enzyme-adapter-utils@^1.9.0:
     prop-types "^15.6.2"
     semver "^5.6.0"
 
+enzyme-page-object@^0.1.14:
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/enzyme-page-object/-/enzyme-page-object-0.1.14.tgz#b4805fb3d61caa56d87a3e9f87db48619b5e8cb4"
+  integrity sha512-temBkNC0eDNbG76o7vLtAB8euhJrSjAW0oJnwpXsKGO7Jogh4Bk97jIqcOAjoJLHbDBSKYTyHcq+hNNXMc9AaQ==
+
 enzyme@^3.3.0:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/enzyme/-/enzyme-3.7.0.tgz#9b499e8ca155df44fef64d9f1558961ba1385a46"
