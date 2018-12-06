@@ -6,6 +6,13 @@ class LogoSection extends Section {
   get src() {
     return this.context.find('img').prop('src')
   }
+
+  // 13: Section should always return a found element
+  // The logo section here is unfortunately not making it easy to test the length of returned elements
+  // https://trello.com/c/1uzkBvuQ/13-section-should-always-return-a-foundelement
+  get length() {
+    return this.context.length
+  }
 }
 
 class ShallowLogoSection extends LogoSection {
